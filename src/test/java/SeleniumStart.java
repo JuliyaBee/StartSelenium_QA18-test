@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class TestClass {
+public class SeleniumStart {
 
     WebDriver wd;
 
@@ -28,7 +28,7 @@ public class TestClass {
      // wd.findElement(By.tagName("a"));
       List<WebElement>elements=wd.findElements(By.tagName("a"));
         System.out.println(elements.size());
-        By.
+
     }
 
     @AfterMethod
