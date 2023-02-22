@@ -27,7 +27,6 @@ public class SeleniumStartHW {
     @Test
     public void testLogin() {
         WebElement element = wd.findElement(By.tagName("a"));
-        By.
         List<WebElement> elements = wd.findElements(By.tagName("a"));
         System.out.println((elements.size()));
 

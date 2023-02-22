@@ -24,17 +24,32 @@ public class SeleniumStart {
 
     @Test
     public void testLogin() {
-      WebElement element= wd.findElement(By.tagName("a"));
-     // wd.findElement(By.tagName("a"));
-      List<WebElement>elements=wd.findElements(By.tagName("a"));
+        WebElement element = wd.findElement(By.tagName("a"));
+
+        List<WebElement> elements = wd.findElements(By.tagName("a"));
         System.out.println(elements.size());
+        List<WebElement> divs = wd.findElements(By.tagName("div"));
+        System.out.println(divs.size());
+        WebElement div = wd.findElement(By.tagName("div"));
+        WebElement active = wd.findElement(By.className("active"));
+        System.out.println(active);
+        List<WebElement> actives = wd.findElements(By.className("active"));
+        System.out.println(actives.size());
+        WebElement login = wd.findElement(By.linkText("LOGIN"));
+        System.out.println(login);
+        List<WebElement> bo = wd.findElements(By.partialLinkText("BO"));
+        System.out.println((bo.size()));
+        WebElement h1 = wd.findElement(By.tagName("h1"));
+        System.out.println(h1);
+        List<WebElement>home = wd.findElements(By.partialLinkText("HOME"));
+        System.out.println(home.size());
 
     }
 
     @AfterMethod
     public void postCondition() {
-      //  wd.close();
-       wd.quit();
+        //  wd.close();
+        wd.quit();
 
     }
 }
