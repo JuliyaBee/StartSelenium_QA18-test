@@ -86,7 +86,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SeleniumStart.testLogin">
+  <component name="RunManager" selected="Gradle.SeleniumStartHW.testLogin">
     <configuration name="SeleniumStartHW.testLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,8 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SeleniumStart.testLogin" />
         <item itemvalue="Gradle.SeleniumStartHW.testLogin" />
+        <item itemvalue="Gradle.SeleniumStart.testLogin" />
         <item itemvalue="Gradle.TestClass.testLogin" />
         <item itemvalue="Gradle.StartSelenium.testName" />
         <item itemvalue="Gradle.StartSelenium" />
