@@ -14,7 +14,6 @@ public class SeleniumStartHW {
     WebDriver wd;
 
 
-
     @BeforeMethod
     public void preCondition() {
         System.out.println("Opening web-site");
@@ -61,24 +60,22 @@ public class SeleniumStartHW {
 //        WebElement login_style = wd.findElement(By.cssSelector("[style*='border: 1px solid black;'] "));
 //        WebElement navbar = wd.findElement(By.cssSelector("[class^='navbar']"));
 //        WebElement style = wd.findElement(By.cssSelector("[style$='color: white;']"));
-        wd.findElement(By.xpath("//[@class='container']"));
+        WebElement container = wd.findElement(By.xpath("//*[@class='container']"));
         wd.findElement(By.xpath("//div[@id='root' and @class='container']"));
-        wd.findElement(By.xpath("//*div"));
-        wd.findElement(By.xpath("//*a"));
-        wd.findElement(By.xpath("//*div//a"));
-        wd.findElement(By.xpath("//*div//a[@class='active']"));
-        wd.findElement(By.xpath("//*div//a[@href='/login']"));
-        wd.findElement(By.xpath("//*div[@class='navbar-component_nav__1X_4m']/a[3]"));
+        wd.findElement(By.xpath("//div"));
+        wd.findElement(By.xpath("//a"));
+        wd.findElement(By.xpath("//div//a"));
+        wd.findElement(By.xpath("//div//a[@class='active']"));
+        wd.findElement(By.xpath("//div//a[contains(@href,'login')]"));
+        wd.findElement(By.xpath("//div[@class='navbar-component_nav__1X_4m']/a[@href='/login']"));
         wd.findElement(By.xpath("//input[@name='password']"));
-        wd.findElement(By.xpath("//*div[@class='login_login__3EHKB']/form/input[2]"));
-        wd.findElement(By.xpath("//*div[@id='root']"));
-
-        wd.findElement(By.xpath("//div[@class='login_login__3EHKB'/form"));
+        wd.findElement(By.xpath("//div[@class='login_login__3EHKB']/form/input[@placeholder='Password']"));
+        wd.findElement(By.xpath("//div[@id='root']"));
+        wd.findElement(By.xpath("//div[@class='login_login__3EHKB']/form"));
         wd.findElement(By.xpath("//input[@name='email']/.."));
-
-        wd.findElement(By.xpath("//a[start-with@style,'border: 1px solid black;'] "));
-        wd.findElement(By.xpath("//div[start-with@class,'navbar']"));
-        wd.findElement(By.xpath("//a[contains([.,'border: 1px solid black; background-color: black; color: white;']"));
+        wd.findElement(By.xpath("//*[starts-with(@style,'border')]"));
+        wd.findElement(By.xpath("//div[starts-with(@class,'navbar')]"));
+        wd.findElement(By.xpath("//a[contains(@style,'border: 1px solid black; background-color: black; color: white;')]"));
 
     }
 
