@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b256db0-4361-416d-be5b-2dcfd42d2c8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumStartHW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumStartHW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/juliy/QA_18/StartSelenium_QA18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/juliy/QA_18/Start_QA18&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
